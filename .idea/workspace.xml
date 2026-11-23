@@ -1,14 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c31b3033-8053-4196-baed-fa726d1de221" name="Changes" comment="" />
+    <list default="true" id="c31b3033-8053-4196-baed-fa726d1de221" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test-sql-23-11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test-sql-23-11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "eladamit555"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/eladamit555/test-sql-23-11.git",
+    "accountId": "cf23a373-d230-4fe7-9893-0a31c67e819d"
+  }
+}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000038094161994" />
+      <entry key="S2" value="1.045552766881161" />
+      <entry key="S5" value="1.3587792922656095" />
+      <entry key="S10" value="1.8035150415895198" />
+      <entry key="S30" value="2.4648329081453633" />
+      <entry key="S60" value="2.806441780959788" />
+      <entry key="M2" value="3.5333578555663516" />
+      <entry key="M5" value="8.744375120480598" />
+      <entry key="M10" value="18.09157608337279" />
+      <entry key="M15" value="24.46277834144685" />
+      <entry key="M30" value="34.08645748408564" />
+      <entry key="H1" value="40.70464654566134" />
+      <entry key="H2" value="44.61436754252812" />
+      <entry key="H4" value="46.743667206460394" />
+      <entry key="D1" value="48.614754978466216" />
+      <entry key="W1" value="48.94473496327576" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="6.047994460862313E-91" />
+      <entry key="S5" value="8.192221624988725E-37" />
+      <entry key="S10" value="9.420960600984192E-19" />
+      <entry key="S30" value="1.3028249417816513E-6" />
+      <entry key="S60" value="0.0015786979279259407" />
+      <entry key="M2" value="0.05943666774487304" />
+      <entry key="M5" value="0.5905758785189055" />
+      <entry key="M10" value="1.3777466963347909" />
+      <entry key="M15" value="1.8896040953237312" />
+      <entry key="M30" value="2.680620010934395" />
+      <entry key="H1" value="3.250017170069115" />
+      <entry key="H2" value="3.598243144216451" />
+      <entry key="H4" value="3.7918084570271158" />
+      <entry key="D1" value="3.9642275856476203" />
+      <entry key="W1" value="3.9948625605248957" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.8950250709279725" />
+      <entry key="MS500" value="0.9780634806776134" />
+      <entry key="S2" value="1.005057537575409" />
+      <entry key="S5" value="1.2227144013541922" />
+      <entry key="S10" value="1.6579916998788573" />
+      <entry key="S30" value="2.383667972728042" />
+      <entry key="S60" value="2.7616204361677936" />
+      <entry key="M2" value="3.566018591019469" />
+      <entry key="M5" value="9.313282033305516" />
+      <entry key="M10" value="19.44826820994982" />
+      <entry key="M15" value="26.33358317149345" />
+      <entry key="M30" value="36.75398030003989" />
+      <entry key="H1" value="43.94680753944984" />
+      <entry key="H2" value="48.20828945145193" />
+      <entry key="H4" value="50.53320691895585" />
+      <entry key="D1" value="52.57858850140049" />
+      <entry key="W1" value="52.939540826153745" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0,
@@ -22,15 +109,28 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/user/PycharmProjects/test-sql-23-11",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\test-sql-23-11" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
